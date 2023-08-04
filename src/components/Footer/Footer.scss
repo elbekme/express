@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+$color-primary:#2C2D2E;
+
+h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Montserrat', sans-serif;
+}
+li{
+    list-style-type: none;
+}
+
+footer{
+    background: #00103D0F;
+    margin-top: 3rem;
+    #footer-item{
+        height: 40rem;
+        width: 130rem;
+        margin: 0 auto;
+    }
+    .footer-top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    hr{
+        border: 1px solid #919399;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    p{
+        color: #919399;
+        font-weight: 500;
+        font-size: 1.3rem;
+        padding-right: 70%;
+        padding-top: 1rem;
+    }
+    .footer-links{
+        width: 100%;
+        height: 22.4rem;
+        display: flex;
+        .links-left{
+            width: 55%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+                ul{
+                    li{
+                        padding-bottom: 1rem;
+                        h1{
+                            color: $color-primary;
+                            font-size: 2.4rem;
+                            font-weight: 600;
+                            
+                        }
+                        a{
+                            text-decoration: none;
+                            color: $color-primary;
+                            font-size: 1.6rem;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        .links-right{
+            width: 45%;
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            ul{
+                li{
+                    h1{
+                        color: #EF7C00;
+                        font-weight: 600;
+                        font-size: 1.6rem;
+                    }
+                    .links-h{
+                        padding-top: 3rem;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: $color-primary;
+                        font-size: 1.5rem;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+}
